@@ -1,0 +1,80 @@
+# Semantic role -> classification keys mapping for Honeypunk theme
+# Keys listed here will have their foreground (second array element) updated
+# when semantic remapping is invoked.
+
+variables:
+  - local name
+  - field name
+  - CppGlobalVariableSemanticTokenFormat
+  - CppLocalVariableSemanticTokenFormat
+  - ReSharper C++ Global Variable Identifier
+  - ReSharper C++ Class Field Identifier
+  - ReSharper C++ Struct Field Identifier
+  - ReSharper C++ Static Field Identifier
+  - ReSharper C++ Union Member Identifier
+
+functions:
+  - method name
+  - extension method name
+  - CppFunctionSemanticTokenFormat
+  - CppMemberFunctionSemanticTokenFormat
+  - CppStaticMemberFunctionSemanticTokenFormat
+  - CppFunctionTemplateSemanticTokenFormat
+  - ReSharper C++ Global Function Identifier
+
+control_keywords:
+  - keyword - control
+  - CppControlKeywordSyntacticTokenFormat
+
+base_keywords:
+  - Keyword
+  - keyword - contextual
+  - control keyword
+  - contextual keyword
+
+types:
+  - class name
+  - struct name
+  - interface name
+  - enum name
+  - delegate name
+  - type parameter name
+  - module name
+  - CppTypeSemanticTokenFormat
+  - CppRefTypeSemanticTokenFormat
+  - CppValueTypeSemanticTokenFormat
+
+parameters:
+  - parameter name
+  - CppParameterSemanticTokenFormat
+
+strings:
+  - String
+  - string - verbatim
+  - regex - text
+  - CppUDLStringSemanticTokenFormat
+
+comments:
+  - Comment
+  - XML Comment
+  - XAML Comment
+  - HTML Comment
+  - regex - comment
+
+literals:
+  - Number
+  - CppUDLNumberSemanticTokenFormat
+  - CppUDLRawSemanticTokenFormat
+
+errors:
+  - Error
+  - ReSharper Error Unresolved
+  - ReSharper Error Underlined
+
+preprocessor:
+  - preprocessor text
+  - Preprocessor Keyword
+
+namespaces:
+  - namespace name
+  - CppNamespaceSemanticTokenFormat

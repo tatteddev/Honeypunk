@@ -1,0 +1,26 @@
+# Desired palette color assignment per semantic role.
+# Values are palette color names (as they appear in docs/palette.md).
+# If a color name is not found in the palette file, that role is skipped.
+
+variables:
+  foreground: Synth Magenta
+  background: Deep Space
+functions:
+  fg: Neon Yellow
+  bg: Deep Space
+control_keywords: Cyber Orange
+base_keywords: Synth Magenta
+types:
+  fg: Chrome Teal
+  bg: Gunmetal
+parameters: Matrix Green
+strings: Neon Pink
+comments:
+  fg: Slate Light
+  bg: Gunmetal
+literals: Aurum Gold
+errors:
+  fg: Synth Magenta
+  bg: Deep Space
+preprocessor: Violet Flux
+namespaces: Violet Flux

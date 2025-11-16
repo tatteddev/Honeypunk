@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Theme build artifacts
+*.vsix
+# BUT allow example VSIX if needed
+# !example/*.vsix
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
 # User-specific files
 *.rsuser
 *.suo
