@@ -1,11 +1,11 @@
 Name: Honeypunk
 Identity: Honeypunk
-Version: 1.0.0
+Version: 1.0.1
 GUID: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 BaseGUID: 1ded0138-47ce-435e-84ef-9ec1f439b749
 
 Author: HoneyDrunk Studios
-Description: A cyberpunk-inspired dark theme with neon cyan accents, vibrant colors, and a futuristic aesthetic. Palette used from HoneyDrunk Studios. Perfect for those late-night coding sessions with a cyberpunk vibe.
+Description: A cyberpunk-inspired dark theme with neon cyan accents, vibrant colors, and a futuristic aesthetic. Palette from HoneyDrunk Studios. Perfect for those late-night coding sessions with a cyberpunk vibe.
 Tags: Dark, Cyberpunk, Neon, Modern, Futuristic, VS2022, VS2026
 Icon: honeydrunk-icon.png
 
@@ -866,12 +866,12 @@ Sections:
     XAML Markup Extension Parameter Value: [05x00000000, "#94A3B8"]
     XML Text: [05x00000000, "#94A3B8"]
     XML Keyword: [05x00000000, "#D946EF"]
-    XML Delimiter: [05x00000000, "#94A3B8"]
+    XML Delimiter: [05x00000000, "#D946EF"]
     XML Name: [05x00000000, "#FF4D8D"]
-    XML Attribute: [05x00000000, "#94A3B8"]
+    XML Attribute: [05x00000000, "#D946EF"]
     XML Processing Instruction: [05x00000000, "#94A3B8"]
-    XML Attribute Value: [05x00000000, "#94A3B8"]
-    XML Attribute Quotes: [05x00000000, "#94A3B8"]
+    XML Attribute Value: [05x00000000, "#00D1FF"]
+    XML Attribute Quotes: [05x00000000, "#D946EF"]
     XSLT Keyword: [05x00000000, "#D946EF"]
 
   Cpp Text Editor MEF Items:
